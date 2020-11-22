@@ -23,9 +23,11 @@ roslaunch turtlebot3_bringup turtlebot3_remote.launch
 rosrun rviz rviz -d `rospack find turtlebot3_description`/rviz/model.rviz
 ```
 ![](./docs/rviz.jpg)
+
 ### Step 6. ON LABTOP
+> Quit rviz on step 5 before run this step
 ```jsx
-rosrun rviz rviz -d `rospack find turtlebot3_description`/rviz/model.rviz
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 
 # GITHUB URL
