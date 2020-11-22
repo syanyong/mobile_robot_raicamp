@@ -1,2 +1,7 @@
-# mobile_robot_raicamp
-The instruction for the camp
+# MOBILE ROBOT Workshop 
+# for Highschool student in Robotics and AI Camp KMITL
+
+
+
+# On remote 
+
